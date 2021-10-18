@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi string dan number</title>
+</head>
+<body>
+    <script>
+        const value1 = parseInt("1");
+        const value2 = 1;
+        const sum = value1 + value2;
+
+        document.writeln(`<p>${sum}</p>`) // 2
+
+        document.writeln(`<p>${parseInt("1.9")}</p>`) // 1
+        document.writeln(`<p>${parseFloat("1.1")}</p>`) // 1.1
+        document.writeln(`<p>${Number("1.1")}</p>`) //1.1
+    </script>
+</body>
+</html>
